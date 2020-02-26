@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/main.css" />
+    <title>Json Serializer</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="title">Super Duper</h1>
+      <h1 id="title">JSON Maker</h1>
+    </header>
+    <div class="main">
+      <h1 id="curly-start">{</h1>
+      <form id="main-form">
+        <div id="entry">
+          <div id="text-input">
+            <input type="text" name="key" id="key"/>
+            :
+            <input type="text" name="value" id="value"/>,
+            <a href="#" class="add-item"><i class="far fa-plus-square"></i></a> <a class="remove-item" href="#"><i class="far fa-minus-square"></i></a>
+          </div>
+        </div>
+        <h1 id="curly-end">}</h1>
+        <button type="submit" id="submit">Go!</button>
+      </form>
+    </div>
+    <script src="/src/app.js"></script>
+    <script
+      src="https://kit.fontawesome.com/546f444642.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
